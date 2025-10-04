@@ -334,7 +334,7 @@ func handleCreateUserPage(w http.ResponseWriter, r *http.Request) {
 		CSRFToken    string
 	}{
 		Title:        serverTitle + " setup wizard",
-		Heading:      "Create Iniital User",
+		Heading:      "Create Initial User",
 		Static:       root + "static",
 		SharedStatic: root + "shared",
 		WikiName:     serverTitle,

@@ -6,8 +6,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cooper/quiki/adminifier/utils"
-	"github.com/cooper/quiki/wikifier"
+	"github.com/TheBotsters/book/adminifier/utils"
+	"github.com/TheBotsters/book/wikifier"
 
 	"github.com/go-git/go-git/v5"
 	"github.com/go-git/go-git/v5/config"

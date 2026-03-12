@@ -30,7 +30,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cooper/quiki/wiki"
+	"github.com/TheBotsters/book/wiki"
 )
 
 // max returns the larger of two integers (for go < 1.21)

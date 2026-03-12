@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cooper/quiki/cli"
-	impl "github.com/cooper/quiki/cli/wiki-impl"
+	"github.com/TheBotsters/book/cli"
+	impl "github.com/TheBotsters/book/cli/wiki-impl"
 )
 
 type Parser struct {

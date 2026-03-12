@@ -8,9 +8,9 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/cooper/quiki/resources"
-	"github.com/cooper/quiki/webserver"
-	"github.com/cooper/quiki/wiki"
+	"github.com/TheBotsters/book/resources"
+	"github.com/TheBotsters/book/webserver"
+	"github.com/TheBotsters/book/wiki"
 	"github.com/pkg/errors"
 )
 

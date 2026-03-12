@@ -3,7 +3,7 @@ package webserver
 import (
 	"net/http"
 
-	"github.com/cooper/quiki/authenticator"
+	"github.com/TheBotsters/book/authenticator"
 )
 
 // PermissionChecker provides cached permission checking for web requests

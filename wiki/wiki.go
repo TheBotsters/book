@@ -8,8 +8,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/cooper/quiki/authenticator"
-	"github.com/cooper/quiki/wikifier"
+	"github.com/TheBotsters/book/authenticator"
+	"github.com/TheBotsters/book/wikifier"
 	"github.com/go-git/go-git/v5"
 )
 

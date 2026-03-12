@@ -3,8 +3,8 @@ package main
 import (
 	"flag"
 
-	"github.com/cooper/quiki/cli"
-	impl "github.com/cooper/quiki/cli/full-impl"
+	"github.com/TheBotsters/book/cli"
+	impl "github.com/TheBotsters/book/cli/full-impl"
 )
 
 func main() {

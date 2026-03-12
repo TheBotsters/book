@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cooper/quiki/wikifier"
+	"github.com/TheBotsters/book/wikifier"
 )
 
 // DisplayFile represents a plain text file to display.

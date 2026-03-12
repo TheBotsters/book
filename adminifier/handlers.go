@@ -8,10 +8,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/cooper/quiki/authenticator"
-	"github.com/cooper/quiki/router"
-	"github.com/cooper/quiki/webserver"
-	"github.com/cooper/quiki/wiki"
+	"github.com/TheBotsters/book/authenticator"
+	"github.com/TheBotsters/book/router"
+	"github.com/TheBotsters/book/webserver"
+	"github.com/TheBotsters/book/wiki"
 )
 
 // permissionChecker is the shared permission checker for adminifier

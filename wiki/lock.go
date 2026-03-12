@@ -3,7 +3,7 @@ package wiki
 import (
 	"path/filepath"
 
-	"github.com/cooper/quiki/lock"
+	"github.com/TheBotsters/book/lock"
 )
 
 // LockPage acquires both in-memory and file-based locks for a specific page

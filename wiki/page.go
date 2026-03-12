@@ -12,8 +12,8 @@ import (
 	"time"
 
 	httpdate "github.com/Songmu/go-httpdate"
-	"github.com/cooper/quiki/adminifier/utils"
-	"github.com/cooper/quiki/wikifier"
+	"github.com/TheBotsters/book/adminifier/utils"
+	"github.com/TheBotsters/book/wikifier"
 )
 
 // DisplayPage represents a page result to display.

@@ -3,9 +3,9 @@ package main
 import (
 	"path/filepath"
 
-	"github.com/cooper/quiki/adminifier"
-	"github.com/cooper/quiki/cli"
-	"github.com/cooper/quiki/webserver"
+	"github.com/TheBotsters/book/adminifier"
+	"github.com/TheBotsters/book/cli"
+	"github.com/TheBotsters/book/webserver"
 )
 
 func runServer(c *cli.Config) {

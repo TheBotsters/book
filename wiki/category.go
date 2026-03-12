@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/Songmu/go-httpdate"
-	"github.com/cooper/quiki/lock"
-	"github.com/cooper/quiki/wikifier"
+	"github.com/TheBotsters/book/lock"
+	"github.com/TheBotsters/book/wikifier"
 	"github.com/pkg/errors"
 )
 

@@ -11,10 +11,10 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/cooper/quiki/monitor"
-	"github.com/cooper/quiki/pregenerate"
-	"github.com/cooper/quiki/wiki"
-	"github.com/cooper/quiki/wikifier"
+	"github.com/TheBotsters/book/monitor"
+	"github.com/TheBotsters/book/pregenerate"
+	"github.com/TheBotsters/book/wiki"
+	"github.com/TheBotsters/book/wikifier"
 )
 
 // WikiInfo represents a wiki hosted on this webserver.

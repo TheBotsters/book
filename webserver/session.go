@@ -3,7 +3,7 @@ package webserver
 import (
 	"context"
 
-	"github.com/cooper/quiki/authenticator"
+	"github.com/TheBotsters/book/authenticator"
 )
 
 // Session embeds the authenticator.User and adds permission caching

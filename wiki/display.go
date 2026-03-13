@@ -1,6 +1,6 @@
 package wiki
 
-import "github.com/cooper/quiki/wikifier"
+import "github.com/TheBotsters/book/wikifier"
 
 // DisplayError represents an error result to display.
 type DisplayError struct {

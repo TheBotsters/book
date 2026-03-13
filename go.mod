@@ -1,4 +1,4 @@
-module github.com/cooper/quiki
+module github.com/TheBotsters/book
 
 go 1.23.1
 

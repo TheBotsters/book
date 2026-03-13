@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/cooper/quiki/lock"
+	"github.com/TheBotsters/book/lock"
 	"golang.org/x/crypto/bcrypt"
 )
 

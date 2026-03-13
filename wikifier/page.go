@@ -14,7 +14,7 @@ import (
 	"time"
 
 	httpdate "github.com/Songmu/go-httpdate"
-	"github.com/cooper/quiki/markdown"
+	"github.com/TheBotsters/book/markdown"
 	strip "github.com/grokify/html-strip-tags-go"
 )
 

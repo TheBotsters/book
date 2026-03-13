@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cooper/quiki/test/framework"
+	"github.com/TheBotsters/book/test/framework"
 )
 
 func main() {

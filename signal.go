@@ -10,8 +10,8 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/cooper/quiki/cli"
-	"github.com/cooper/quiki/webserver"
+	"github.com/TheBotsters/book/cli"
+	"github.com/TheBotsters/book/webserver"
 )
 
 // handleSignals listens for SIGHUP and triggers a server config rehash.

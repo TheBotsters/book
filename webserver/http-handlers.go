@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cooper/quiki/wiki"
+	"github.com/TheBotsters/book/wiki"
 )
 
 // master handler

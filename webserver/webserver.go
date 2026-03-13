@@ -18,13 +18,14 @@ import (
 	"time"
 
 	"github.com/alexedwards/scs/v2"
-	"github.com/cooper/quiki/authenticator"
-	"github.com/cooper/quiki/monitor"
-	"github.com/cooper/quiki/pregenerate"
-	"github.com/cooper/quiki/resources"
-	"github.com/cooper/quiki/router"
-	"github.com/cooper/quiki/wiki"
-	"github.com/cooper/quiki/wikifier"
+	"github.com/TheBotsters/book/api"
+	"github.com/TheBotsters/book/authenticator"
+	"github.com/TheBotsters/book/monitor"
+	"github.com/TheBotsters/book/pregenerate"
+	"github.com/TheBotsters/book/resources"
+	"github.com/TheBotsters/book/router"
+	"github.com/TheBotsters/book/wiki"
+	"github.com/TheBotsters/book/wikifier"
 	"github.com/pkg/errors"
 )
 
@@ -395,6 +396,12 @@ func Configure(_initial_options Options) {
 	// setup static files from wikifier
 	if err = setupStatic(); err != nil {
 		log.Fatal(errors.Wrap(err, "setup static"))
+	}
+
+	// register REST API routes using the first configured wiki
+	for _, wi := range Wikis {
+		api.RegisterRoutes(Router, wi.Dir())
+		break
 	}
 
 	// create session manager with security hardening

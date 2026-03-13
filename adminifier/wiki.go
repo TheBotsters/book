@@ -13,10 +13,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/cooper/quiki/authenticator"
-	"github.com/cooper/quiki/webserver"
-	"github.com/cooper/quiki/wiki"
-	"github.com/cooper/quiki/wikifier"
+	"github.com/TheBotsters/book/authenticator"
+	"github.com/TheBotsters/book/webserver"
+	"github.com/TheBotsters/book/wiki"
+	"github.com/TheBotsters/book/wikifier"
 	"github.com/pkg/errors"
 )
 

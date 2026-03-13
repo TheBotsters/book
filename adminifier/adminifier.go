@@ -9,10 +9,10 @@ import (
 	"strings"
 
 	"github.com/alexedwards/scs/v2"
-	"github.com/cooper/quiki/resources"
-	"github.com/cooper/quiki/router"
-	"github.com/cooper/quiki/webserver"
-	"github.com/cooper/quiki/wikifier"
+	"github.com/TheBotsters/book/resources"
+	"github.com/TheBotsters/book/router"
+	"github.com/TheBotsters/book/webserver"
+	"github.com/TheBotsters/book/wikifier"
 	"github.com/pkg/errors"
 )
 

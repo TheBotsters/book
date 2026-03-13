@@ -5,7 +5,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/cooper/quiki/wikifier"
+	"github.com/TheBotsters/book/wikifier"
 )
 
 // CreatePageFolder creates a new page folder.

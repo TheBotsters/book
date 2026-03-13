@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/cooper/quiki/adminifier/utils"
+	"github.com/TheBotsters/book/adminifier/utils"
 	"github.com/russross/blackfriday/v2"
 )
 

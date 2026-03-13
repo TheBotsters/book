@@ -9,7 +9,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/cooper/quiki/wikifier"
+	"github.com/TheBotsters/book/wikifier"
 )
 
 // Config holds the cli configuration

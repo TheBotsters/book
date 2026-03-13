@@ -3,7 +3,7 @@ package wikifier
 import (
 	"path/filepath"
 
-	"github.com/cooper/quiki/lock"
+	"github.com/TheBotsters/book/lock"
 )
 
 // Lock acquires a file-based lock for standalone page operations

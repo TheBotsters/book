@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cooper/quiki/wiki"
+	"github.com/TheBotsters/book/wiki"
 	"github.com/fsnotify/fsnotify"
 )
 

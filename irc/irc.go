@@ -4,7 +4,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/cooper/quiki/wikifier"
+	"github.com/TheBotsters/book/wikifier"
 	hbot "github.com/whyrusleeping/hellabot"
 )
 

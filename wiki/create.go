@@ -6,8 +6,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/cooper/quiki/resources"
-	"github.com/cooper/quiki/wikifier"
+	"github.com/TheBotsters/book/resources"
+	"github.com/TheBotsters/book/wikifier"
 	"github.com/pkg/errors"
 )
 

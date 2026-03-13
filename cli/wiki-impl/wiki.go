@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/cooper/quiki/cli"
-	tiny "github.com/cooper/quiki/cli/tiny-impl"
-	"github.com/cooper/quiki/pregenerate"
-	"github.com/cooper/quiki/wiki"
-	"github.com/cooper/quiki/wikifier"
+	"github.com/TheBotsters/book/cli"
+	tiny "github.com/TheBotsters/book/cli/tiny-impl"
+	"github.com/TheBotsters/book/pregenerate"
+	"github.com/TheBotsters/book/wiki"
+	"github.com/TheBotsters/book/wikifier"
 	"github.com/pkg/errors"
 )
 

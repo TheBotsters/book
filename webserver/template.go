@@ -14,7 +14,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/cooper/quiki/wikifier"
+	"github.com/TheBotsters/book/wikifier"
 )
 
 var templateFses []fs.FS

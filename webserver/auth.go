@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cooper/quiki/authenticator"
+	"github.com/TheBotsters/book/authenticator"
 )
 
 // rateLimitKey represents a composite key for rate limiting

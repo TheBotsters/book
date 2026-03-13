@@ -1,6 +1,6 @@
 package wiki
 
-import "github.com/cooper/quiki/wikifier"
+import "github.com/TheBotsters/book/wikifier"
 
 // generate.go - deferred validation and pregeneration support
 

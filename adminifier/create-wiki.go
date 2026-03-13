@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"slices"
 
-	"github.com/cooper/quiki/webserver"
-	"github.com/cooper/quiki/wiki"
-	"github.com/cooper/quiki/wikifier"
+	"github.com/TheBotsters/book/webserver"
+	"github.com/TheBotsters/book/wiki"
+	"github.com/TheBotsters/book/wikifier"
 )
 
 func handleCreateWiki(w http.ResponseWriter, r *http.Request) {

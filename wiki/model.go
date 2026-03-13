@@ -5,8 +5,8 @@ import (
 	"path/filepath"
 	"sort"
 
-	"github.com/cooper/quiki/adminifier/utils"
-	"github.com/cooper/quiki/wikifier"
+	"github.com/TheBotsters/book/adminifier/utils"
+	"github.com/TheBotsters/book/wikifier"
 )
 
 // Models returns info about all the models in the wiki.

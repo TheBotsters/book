@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/cooper/quiki/authenticator"
-	"github.com/cooper/quiki/cli"
+	"github.com/TheBotsters/book/authenticator"
+	"github.com/TheBotsters/book/cli"
 	"golang.org/x/term"
 )
 
